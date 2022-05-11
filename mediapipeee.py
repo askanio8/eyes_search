@@ -24,8 +24,3 @@ class Iris:
                 return (results.multi_face_landmarks[0].landmark[33].x,
                         results.multi_face_landmarks[0].landmark[263].x,
                         results.multi_face_landmarks[0].landmark[33].y)
-            coords = []
-            for face_landmarks in results.multi_face_landmarks:
-                return (face_landmarks.landmark[33].x, face_landmarks.landmark[263].x,
-                               face_landmarks.landmark[33].y)
-                # только 1 итерация
